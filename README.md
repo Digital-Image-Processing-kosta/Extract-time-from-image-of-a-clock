@@ -1,6 +1,7 @@
 # Extract time from image of a clock.
 Function **extract_time** extracts the minutes and hours, 
 and **extract_time_bonus** extracts seconds if the needle exists 
+
 (if not, outputs -1)
 
 ### TEST: 
