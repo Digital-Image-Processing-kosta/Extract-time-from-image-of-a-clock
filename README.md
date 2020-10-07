@@ -19,7 +19,7 @@ The idea is simillar as before. Canny edge detection is applied on the cropped p
 ![4 img](https://github.com/Digital-Image-Processing-kosta/Extract-time-from-image-of-a-clock/blob/master/garbage/6.png)<br />
 Then the Hough transoformation is applied and tuned to extract only single longest line:<br />
 ![5 img](https://github.com/Digital-Image-Processing-kosta/Extract-time-from-image-of-a-clock/blob/master/garbage/7.png)<br />
-
+The angle of the line is converted into the seconds same as for the hours and minutes.
 # TEST 
 Run the **main.m** to test the functions on 12 images.
 
