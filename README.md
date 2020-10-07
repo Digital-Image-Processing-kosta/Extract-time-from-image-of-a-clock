@@ -9,7 +9,9 @@ So the Canny edge detection algorithm is applied only on the cropped part that c
 ![img1](https://github.com/Digital-Image-Processing-kosta/Extract-time-from-image-of-a-clock/blob/master/garbage/1.png)<br />
 Then the Hough transformation is applied on the extracted edges. The transformation is tuned so that it extracts 2 longest lines:<br />
 ![img1](https://github.com/Digital-Image-Processing-kosta/Extract-time-from-image-of-a-clock/blob/master/garbage/2.png)<br />
-Now we have positions of the 2 needles, but we can not determine which one is for hours and which one is for minutes, because we maybe have cropped both needles and now they have the same length. The idea is to extract edges on the original image and to apply Hough transform to get some number (hyperparameter) of longest lines (edges). Then from the longest lines find 2 lines that match the lines extracted from the cropped part. The longer line will be hours needle and the shorter one will be minutes needle.
+Now we have positions of the 2 needles, but we can not determine which one is for hours and which one is for minutes, because we maybe have cropped both needles and now they have the same length. The idea is to extract edges on the original image and to apply Hough transform to get some number (hyperparameter) of longest lines (edges). Then from the longest lines find 2 lines that match the lines extracted from the cropped part. The longer line will be hours needle and the shorter one will be minutes needle.<br />
+![3 img](https://github.com/Digital-Image-Processing-kosta/Extract-time-from-image-of-a-clock/blob/master/garbage/3.png)
+
 
 # TEST 
 Run the **main.m** to test the functions on 12 images.
