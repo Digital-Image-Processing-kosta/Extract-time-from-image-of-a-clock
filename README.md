@@ -1,4 +1,5 @@
 # Extract time from image of a clock
+Extraction of time from a given image of a clock using Canny edge detection algorithm and Hough transformation.
 Function **extract_time** extracts the minutes and hours.<br />
 Function **extract_time_bonus** extracts seconds if the needle exists, if not, outputs -1.
 
